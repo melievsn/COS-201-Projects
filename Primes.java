@@ -10,7 +10,7 @@ public class PrimeNumbers {
             for (int divisor = 2; divisor <= num/2; divisor++) {
                 if (num % divisor == 0) {
                     isPrime = false;
-                    break; // No need to check further divisors once one is found
+                    break;
                 }
             }
 
